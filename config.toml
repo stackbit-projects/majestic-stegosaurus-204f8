@@ -1,0 +1,39 @@
+baseURL = ""
+title = "Your title"
+themesDir = "themes"
+theme = "m10c"
+paginate = 8
+publishDir = "public"
+
+[[menu.main]]
+identifier = "home"
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+identifier = "tags"
+name = "Tags"
+url = "/tags/"
+weight = 2
+
+[[menu.main]]
+identifier = "about"
+name = "About"
+url = "/about/"
+weight = 3
+
+[params]
+author = "John Doe"
+description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+menu_item_separator = " - "
+
+  [[params.social]]
+  icon = "github"
+  name = "Github"
+  url = "https://github.com/gohugoio"
+
+  [[params.social]]
+  icon = "twitter"
+  name = "Twitter"
+  url = "https://twitter.com/gohugoio"

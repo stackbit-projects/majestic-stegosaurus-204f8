@@ -1,0 +1,874 @@
+stackbitVersion: ~0.3.0
+ssgName: hugo
+publishDir: public
+dataDir: data
+pagesDir: content
+assets:
+  referenceType: static
+  staticDir: static
+  uploadDir: assets
+  publicPath: /
+models:
+  icons:
+    type: data
+    label: Icons
+    file: m10c/icons.json
+    fields:
+      - type: markdown
+        name: activity
+        label: Activity
+      - type: markdown
+        name: airplay
+        label: Airplay
+      - type: markdown
+        name: alert-circle
+        label: Alert Circle
+      - type: markdown
+        name: alert-octagon
+        label: Alert Octagon
+      - type: markdown
+        name: alert-triangle
+        label: Alert Triangle
+      - type: markdown
+        name: align-center
+        label: Align Center
+      - type: string
+        name: align-justify
+        label: Align Justify
+      - type: markdown
+        name: align-left
+        label: Align Left
+      - type: markdown
+        name: align-right
+        label: Align Right
+      - type: markdown
+        name: anchor
+        label: Anchor
+      - type: markdown
+        name: aperture
+        label: Aperture
+      - type: string
+        name: archive
+        label: Archive
+      - type: markdown
+        name: arrow-down-circle
+        label: Arrow Down Circle
+      - type: markdown
+        name: arrow-down-left
+        label: Arrow Down Left
+      - type: string
+        name: arrow-down-right
+        label: Arrow Down Right
+      - type: markdown
+        name: arrow-down
+        label: Arrow Down
+      - type: markdown
+        name: arrow-left-circle
+        label: Arrow Left Circle
+      - type: string
+        name: arrow-left
+        label: Arrow Left
+      - type: markdown
+        name: arrow-right-circle
+        label: Arrow Right Circle
+      - type: markdown
+        name: arrow-right
+        label: Arrow Right
+      - type: markdown
+        name: arrow-up-circle
+        label: Arrow Up Circle
+      - type: string
+        name: arrow-up-left
+        label: Arrow Up Left
+      - type: markdown
+        name: arrow-up-right
+        label: Arrow Up Right
+      - type: markdown
+        name: arrow-up
+        label: Arrow Up
+      - type: markdown
+        name: at-sign
+        label: At Sign
+      - type: string
+        name: award
+        label: Award
+      - type: markdown
+        name: bar-chart-2
+        label: Bar Chart 2
+      - type: markdown
+        name: bar-chart
+        label: Bar Chart
+      - type: markdown
+        name: battery-charging
+        label: Battery Charging
+      - type: string
+        name: battery
+        label: Battery
+      - type: markdown
+        name: bell-off
+        label: Bell Off
+      - type: markdown
+        name: bell
+        label: Bell
+      - type: markdown
+        name: bluetooth
+        label: Bluetooth
+      - type: markdown
+        name: bold
+        label: Bold
+      - type: markdown
+        name: book-open
+        label: Book Open
+      - type: markdown
+        name: book
+        label: Book
+      - type: string
+        name: bookmark
+        label: Bookmark
+      - type: markdown
+        name: box
+        label: Box
+      - type: string
+        name: briefcase
+        label: Briefcase
+      - type: markdown
+        name: calendar
+        label: Calendar
+      - type: markdown
+        name: camera-off
+        label: Camera Off
+      - type: string
+        name: camera
+        label: Camera
+      - type: markdown
+        name: cast
+        label: Cast
+      - type: string
+        name: check-circle
+        label: Check Circle
+      - type: markdown
+        name: check-square
+        label: Check Square
+      - type: string
+        name: check
+        label: Check
+      - type: markdown
+        name: chevron-down
+        label: Chevron Down
+      - type: string
+        name: chevron-left
+        label: Chevron Left
+      - type: markdown
+        name: chevron-right
+        label: Chevron Right
+      - type: string
+        name: chevron-up
+        label: Chevron Up
+      - type: markdown
+        name: chevrons-down
+        label: Chevrons Down
+      - type: markdown
+        name: chevrons-left
+        label: Chevrons Left
+      - type: string
+        name: chevrons-right
+        label: Chevrons Right
+      - type: markdown
+        name: chevrons-up
+        label: Chevrons Up
+      - type: markdown
+        name: chrome
+        label: Chrome
+      - type: string
+        name: circle
+        label: Circle
+      - type: markdown
+        name: clipboard
+        label: Clipboard
+      - type: string
+        name: clock
+        label: Clock
+      - type: markdown
+        name: cloud-drizzle
+        label: Cloud Drizzle
+      - type: markdown
+        name: cloud-lightning
+        label: Cloud Lightning
+      - type: markdown
+        name: cloud-off
+        label: Cloud Off
+      - type: markdown
+        name: cloud-rain
+        label: Cloud Rain
+      - type: markdown
+        name: cloud-snow
+        label: Cloud Snow
+      - type: string
+        name: cloud
+        label: Cloud
+      - type: markdown
+        name: code
+        label: Code
+      - type: markdown
+        name: codepen
+        label: Codepen
+      - type: markdown
+        name: codesandbox
+        label: Codesandbox
+      - type: markdown
+        name: coffee
+        label: Coffee
+      - type: string
+        name: columns
+        label: Columns
+      - type: markdown
+        name: command
+        label: Command
+      - type: string
+        name: compass
+        label: Compass
+      - type: markdown
+        name: copy
+        label: Copy
+      - type: markdown
+        name: corner-down-left
+        label: Corner Down Left
+      - type: string
+        name: corner-down-right
+        label: Corner Down Right
+      - type: markdown
+        name: corner-left-down
+        label: Corner Left Down
+      - type: markdown
+        name: corner-left-up
+        label: Corner Left Up
+      - type: string
+        name: corner-right-down
+        label: Corner Right Down
+      - type: markdown
+        name: corner-right-up
+        label: Corner Right Up
+      - type: markdown
+        name: corner-up-left
+        label: Corner Up Left
+      - type: string
+        name: corner-up-right
+        label: Corner Up Right
+      - type: markdown
+        name: cpu
+        label: Cpu
+      - type: markdown
+        name: credit-card
+        label: Credit Card
+      - type: string
+        name: crop
+        label: Crop
+      - type: markdown
+        name: crosshair
+        label: Crosshair
+      - type: markdown
+        name: database
+        label: Database
+      - type: markdown
+        name: delete
+        label: Delete
+      - type: string
+        name: disc
+        label: Disc
+      - type: markdown
+        name: divide-circle
+        label: Divide Circle
+      - type: markdown
+        name: divide-square
+        label: Divide Square
+      - type: markdown
+        name: divide
+        label: Divide
+      - type: markdown
+        name: dollar-sign
+        label: Dollar Sign
+      - type: markdown
+        name: download-cloud
+        label: Download Cloud
+      - type: string
+        name: download
+        label: Download
+      - type: markdown
+        name: dribbble
+        label: Dribbble
+      - type: markdown
+        name: droplet
+        label: Droplet
+      - type: markdown
+        name: edit-2
+        label: Edit 2
+      - type: markdown
+        name: edit-3
+        label: Edit 3
+      - type: markdown
+        name: edit
+        label: Edit
+      - type: markdown
+        name: external-link
+        label: External Link
+      - type: markdown
+        name: eye-off
+        label: Eye Off
+      - type: string
+        name: eye
+        label: Eye
+      - type: markdown
+        name: facebook
+        label: Facebook
+      - type: markdown
+        name: fast-forward
+        label: Fast Forward
+      - type: markdown
+        name: feather
+        label: Feather
+      - type: markdown
+        name: figma
+        label: Figma
+      - type: markdown
+        name: file-minus
+        label: File Minus
+      - type: markdown
+        name: file-plus
+        label: File Plus
+      - type: markdown
+        name: file-text
+        label: File Text
+      - type: string
+        name: file
+        label: File
+      - type: markdown
+        name: film
+        label: Film
+      - type: string
+        name: filter
+        label: Filter
+      - type: markdown
+        name: flag
+        label: Flag
+      - type: markdown
+        name: folder-minus
+        label: Folder Minus
+      - type: markdown
+        name: folder-plus
+        label: Folder Plus
+      - type: string
+        name: folder
+        label: Folder
+      - type: markdown
+        name: framer
+        label: Framer
+      - type: markdown
+        name: frown
+        label: Frown
+      - type: markdown
+        name: gift
+        label: Gift
+      - type: markdown
+        name: git-branch
+        label: Git Branch
+      - type: markdown
+        name: git-commit
+        label: Git Commit
+      - type: string
+        name: git-merge
+        label: Git Merge
+      - type: markdown
+        name: git-pull-request
+        label: Git Pull Request
+      - type: markdown
+        name: github
+        label: Github
+      - type: string
+        name: gitlab
+        label: Gitlab
+      - type: markdown
+        name: globe
+        label: Globe
+      - type: markdown
+        name: grid
+        label: Grid
+      - type: markdown
+        name: hard-drive
+        label: Hard Drive
+      - type: string
+        name: hash
+        label: Hash
+      - type: markdown
+        name: headphones
+        label: Headphones
+      - type: markdown
+        name: heart
+        label: Heart
+      - type: string
+        name: help-circle
+        label: Help Circle
+      - type: markdown
+        name: hexagon
+        label: Hexagon
+      - type: string
+        name: home
+        label: Home
+      - type: markdown
+        name: image
+        label: Image
+      - type: markdown
+        name: inbox
+        label: Inbox
+      - type: string
+        name: info
+        label: Info
+      - type: markdown
+        name: instagram
+        label: Instagram
+      - type: markdown
+        name: italic
+        label: Italic
+      - type: markdown
+        name: key
+        label: Key
+      - type: string
+        name: layers
+        label: Layers
+      - type: markdown
+        name: layout
+        label: Layout
+      - type: markdown
+        name: life-buoy
+        label: Life Buoy
+      - type: markdown
+        name: link-2
+        label: Link 2
+      - type: markdown
+        name: link
+        label: Link
+      - type: markdown
+        name: linkedin
+        label: Linkedin
+      - type: markdown
+        name: list
+        label: List
+      - type: markdown
+        name: loader
+        label: Loader
+      - type: string
+        name: lock
+        label: Lock
+      - type: markdown
+        name: log-in
+        label: Log In
+      - type: markdown
+        name: log-out
+        label: Log Out
+      - type: markdown
+        name: mail
+        label: Mail
+      - type: string
+        name: map-pin
+        label: Map Pin
+      - type: markdown
+        name: map
+        label: Map
+      - type: markdown
+        name: maximize-2
+        label: Maximize 2
+      - type: markdown
+        name: maximize
+        label: Maximize
+      - type: markdown
+        name: meh
+        label: Meh
+      - type: string
+        name: menu
+        label: Menu
+      - type: markdown
+        name: message-circle
+        label: Message Circle
+      - type: string
+        name: message-square
+        label: Message Square
+      - type: markdown
+        name: mic-off
+        label: Mic Off
+      - type: markdown
+        name: mic
+        label: Mic
+      - type: markdown
+        name: minimize-2
+        label: Minimize 2
+      - type: markdown
+        name: minimize
+        label: Minimize
+      - type: string
+        name: minus-circle
+        label: Minus Circle
+      - type: markdown
+        name: minus-square
+        label: Minus Square
+      - type: string
+        name: minus
+        label: Minus
+      - type: markdown
+        name: monitor
+        label: Monitor
+      - type: string
+        name: moon
+        label: Moon
+      - type: markdown
+        name: more-horizontal
+        label: More Horizontal
+      - type: markdown
+        name: more-vertical
+        label: More Vertical
+      - type: markdown
+        name: mouse-pointer
+        label: Mouse Pointer
+      - type: markdown
+        name: move
+        label: Move
+      - type: string
+        name: music
+        label: Music
+      - type: markdown
+        name: navigation-2
+        label: Navigation 2
+      - type: string
+        name: navigation
+        label: Navigation
+      - type: markdown
+        name: octagon
+        label: Octagon
+      - type: markdown
+        name: package
+        label: Package
+      - type: string
+        name: paperclip
+        label: Paperclip
+      - type: markdown
+        name: pause-circle
+        label: Pause Circle
+      - type: markdown
+        name: pause
+        label: Pause
+      - type: markdown
+        name: pen-tool
+        label: Pen Tool
+      - type: markdown
+        name: percent
+        label: Percent
+      - type: markdown
+        name: phone-call
+        label: Phone Call
+      - type: markdown
+        name: phone-forwarded
+        label: Phone Forwarded
+      - type: string
+        name: phone-incoming
+        label: Phone Incoming
+      - type: markdown
+        name: phone-missed
+        label: Phone Missed
+      - type: markdown
+        name: phone-off
+        label: Phone Off
+      - type: markdown
+        name: phone-outgoing
+        label: Phone Outgoing
+      - type: string
+        name: phone
+        label: Phone
+      - type: markdown
+        name: pie-chart
+        label: Pie Chart
+      - type: markdown
+        name: play-circle
+        label: Play Circle
+      - type: string
+        name: play
+        label: Play
+      - type: markdown
+        name: plus-circle
+        label: Plus Circle
+      - type: markdown
+        name: plus-square
+        label: Plus Square
+      - type: markdown
+        name: plus
+        label: Plus
+      - type: markdown
+        name: pocket
+        label: Pocket
+      - type: string
+        name: power
+        label: Power
+      - type: markdown
+        name: printer
+        label: Printer
+      - type: markdown
+        name: radio
+        label: Radio
+      - type: string
+        name: refresh-ccw
+        label: Refresh Ccw
+      - type: markdown
+        name: refresh-cw
+        label: Refresh Cw
+      - type: markdown
+        name: repeat
+        label: Repeat
+      - type: markdown
+        name: rewind
+        label: Rewind
+      - type: string
+        name: rotate-ccw
+        label: Rotate Ccw
+      - type: markdown
+        name: rotate-cw
+        label: Rotate Cw
+      - type: markdown
+        name: rss
+        label: Rss
+      - type: markdown
+        name: save
+        label: Save
+      - type: markdown
+        name: scissors
+        label: Scissors
+      - type: string
+        name: search
+        label: Search
+      - type: markdown
+        name: send
+        label: Send
+      - type: markdown
+        name: server
+        label: Server
+      - type: markdown
+        name: settings
+        label: Settings
+      - type: string
+        name: share-2
+        label: Share 2
+      - type: markdown
+        name: share
+        label: Share
+      - type: markdown
+        name: shield-off
+        label: Shield Off
+      - type: string
+        name: shield
+        label: Shield
+      - type: markdown
+        name: shopping-bag
+        label: Shopping Bag
+      - type: markdown
+        name: shopping-cart
+        label: Shopping Cart
+      - type: markdown
+        name: shuffle
+        label: Shuffle
+      - type: markdown
+        name: sidebar
+        label: Sidebar
+      - type: string
+        name: skip-back
+        label: Skip Back
+      - type: markdown
+        name: skip-forward
+        label: Skip Forward
+      - type: markdown
+        name: slack
+        label: Slack
+      - type: string
+        name: slash
+        label: Slash
+      - type: markdown
+        name: sliders
+        label: Sliders
+      - type: markdown
+        name: smartphone
+        label: Smartphone
+      - type: markdown
+        name: smile
+        label: Smile
+      - type: markdown
+        name: speaker
+        label: Speaker
+      - type: string
+        name: square
+        label: Square
+      - type: markdown
+        name: star
+        label: Star
+      - type: string
+        name: stop-circle
+        label: Stop Circle
+      - type: markdown
+        name: sun
+        label: Sun
+      - type: markdown
+        name: sunrise
+        label: Sunrise
+      - type: markdown
+        name: sunset
+        label: Sunset
+      - type: string
+        name: tablet
+        label: Tablet
+      - type: markdown
+        name: tag
+        label: Tag
+      - type: markdown
+        name: target
+        label: Target
+      - type: string
+        name: terminal
+        label: Terminal
+      - type: markdown
+        name: thermometer
+        label: Thermometer
+      - type: markdown
+        name: thumbs-down
+        label: Thumbs Down
+      - type: string
+        name: thumbs-up
+        label: Thumbs Up
+      - type: markdown
+        name: toggle-left
+        label: Toggle Left
+      - type: markdown
+        name: toggle-right
+        label: Toggle Right
+      - type: markdown
+        name: tool
+        label: Tool
+      - type: markdown
+        name: trash-2
+        label: Trash 2
+      - type: string
+        name: trash
+        label: Trash
+      - type: markdown
+        name: trello
+        label: Trello
+      - type: markdown
+        name: trending-down
+        label: Trending Down
+      - type: string
+        name: trending-up
+        label: Trending Up
+      - type: markdown
+        name: triangle
+        label: Triangle
+      - type: markdown
+        name: truck
+        label: Truck
+      - type: string
+        name: tv
+        label: Tv
+      - type: markdown
+        name: twitch
+        label: Twitch
+      - type: markdown
+        name: twitter
+        label: Twitter
+      - type: string
+        name: type
+        label: Type
+      - type: markdown
+        name: umbrella
+        label: Umbrella
+      - type: markdown
+        name: underline
+        label: Underline
+      - type: string
+        name: unlock
+        label: Unlock
+      - type: markdown
+        name: upload-cloud
+        label: Upload Cloud
+      - type: markdown
+        name: upload
+        label: Upload
+      - type: markdown
+        name: user-check
+        label: User Check
+      - type: markdown
+        name: user-minus
+        label: User Minus
+      - type: markdown
+        name: user-plus
+        label: User Plus
+      - type: string
+        name: user-x
+        label: User X
+      - type: markdown
+        name: user
+        label: User
+      - type: markdown
+        name: users
+        label: Users
+      - type: markdown
+        name: video-off
+        label: Video Off
+      - type: string
+        name: video
+        label: Video
+      - type: markdown
+        name: voicemail
+        label: Voicemail
+      - type: markdown
+        name: volume-1
+        label: Volume 1
+      - type: markdown
+        name: volume-2
+        label: Volume 2
+      - type: markdown
+        name: volume-x
+        label: Volume X
+      - type: string
+        name: volume
+        label: Volume
+      - type: markdown
+        name: watch
+        label: Watch
+      - type: markdown
+        name: wifi-off
+        label: Wifi Off
+      - type: markdown
+        name: wifi
+        label: Wifi
+      - type: string
+        name: wind
+        label: Wind
+      - type: markdown
+        name: x-circle
+        label: X Circle
+      - type: markdown
+        name: x-octagon
+        label: X Octagon
+      - type: markdown
+        name: x-square
+        label: X Square
+      - type: string
+        name: x
+        label: X
+      - type: markdown
+        name: youtube
+        label: Youtube
+      - type: string
+        name: zap-off
+        label: Zap Off
+      - type: markdown
+        name: zap
+        label: Zap
+      - type: markdown
+        name: zoom-in
+        label: Zoom In
+      - type: markdown
+        name: zoom-out
+        label: Zoom Out
